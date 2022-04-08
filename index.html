@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.css">
+  <link href="./assets/css/all.css" rel="stylesheet">
+
+  <title>Todo List</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="banner">
+            <h2 >Todo Web App</h2>
+    </div>
+      <form class="todo-form">
+        <label for="new-todo-input">New Task 
+            <input type="text" 
+                    class="todo-input" 
+                    placeholder="Add a Todo..."/>
+        </label>
+        <button type="submit" class="add-button">Add</button>
+      </form>
+    <form action="" id="edit-todo-form">
+        <label for="">Edit</label>
+        <input type="text" id="edit-todo-input" disabled placeholder="" />
+        <button type="submit" class="edit-todo-submit">Update</button> 
+   
+    </form>
+    <div class="todo-items"></div>
+  </div>
+  
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
